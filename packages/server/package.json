@@ -1,0 +1,8 @@
+{
+  "name": "@test/server",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "@test/common": "1.0.0",
+    "graphql": "^16.6.0"
+  }
+}
