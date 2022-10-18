@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   lernaVersion: '5.5.4',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v5.5.4
+2 verbose rootPath C:\Users\Osstem\kraken\MonoRepo
+3 error Error: Invalid tag name "^latest": Tags may not have any characters that encodeURIComponent encodes.
+3 error     at invalidTagName (C:\Users\Osstem\kraken\MonoRepo\node_modules\npm-package-arg\npa.js:94:15)
+3 error     at fromRegistry (C:\Users\Osstem\kraken\MonoRepo\node_modules\npm-package-arg\npa.js:299:13)
+3 error     at Function.resolve (C:\Users\Osstem\kraken\MonoRepo\node_modules\npm-package-arg\npa.js:84:12)
+3 error     at C:\Users\Osstem\kraken\MonoRepo\node_modules\@lerna\package-graph\index.js:85:30
+3 error     at Array.forEach (<anonymous>)
+3 error     at C:\Users\Osstem\kraken\MonoRepo\node_modules\@lerna\package-graph\index.js:60:38
+3 error     at Map.forEach (<anonymous>)
+3 error     at new PackageGraph (C:\Users\Osstem\kraken\MonoRepo\node_modules\@lerna\package-graph\index.js:49:10)
